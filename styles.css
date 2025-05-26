@@ -1,0 +1,213 @@
+body{
+    background-color: #e7e4e1;
+    font-family: 'Ariel';
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #545047;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    color: #5b5143;
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    color: #786657;
+    font-size: 18px;
+    text-align: center;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top-ribbon {
+    display: flex;
+    align-items: center;
+    background-color: #d6cfc7;
+    padding: 10px 30px;
+    gap: 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+.top-ribbon .logo {
+    margin: 0;
+    height: 80px;
+    width: auto;
+}
+
+.top-ribbon nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-ribbon nav ul li a {
+    text-decoration: none;
+    color: #5b5143;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.top-ribbon nav ul li a:hover {
+    background: #ece7e1;
+}
+.ribbon-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5b5143;
+    margin-left: 10px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-family: 'Garamond', serif;
+}
+header {
+    background-image: url('images/clothes.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+header h1 {
+    color: #fff; /* Makes the text readable */
+    background: rgba(0,0,0,0.4); /* Optional: adds contrast */
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+.products-container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.product-card h3 {
+    margin: 12px 0 8px 0;
+    color: #5b5143;
+}
+
+.product-card p {
+    font-size: 15px;
+    color: #786657;
+    margin-bottom: 10px;
+}
+
+.product-card .price {
+    font-weight: bold;
+    color: #b48a4a;
+    font-size: 18px;
+}
+.product-detail-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 40px auto 24px auto;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px;
+}
+
+.product-detail-image {
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.product-detail-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.product-detail-info h1 {
+    color: #5b5143;
+    margin-bottom: 0;
+}
+
+.product-detail-info .short-desc {
+    color: #786657;
+    font-size: 18px;
+}
+
+.product-detail-info .sizes ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+}
+
+.product-detail-info .sizes li {
+    background: #ece7e1;
+    border-radius: 6px;
+    padding: 4px 12px;
+    font-weight: bold;
+    color: #5b5143;
+    font-size: 16px;
+}
+
+.product-detail-info .price {
+    font-size: 22px;
+    color: #b48a4a;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.product-full-desc {
+    max-width: 900px;
+    margin: 0 auto 32px auto;
+    background: #f7f4f1;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.similar-products-section {
+    max-width: 900px;
+    margin: 0 auto 32px auto;
+}
