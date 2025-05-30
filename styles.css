@@ -307,9 +307,14 @@ header h1 {
     align-items: center;
     margin: 0 0 0 auto; /* Pushes the search bar to the right */
 }
-
+.search-bar label {
+    margin-right: 10px;
+    color: #5b5143;
+    font-weight: bold;
+    font-size: 16px;
+}
 #search-input {
-    width: 200px;
+    width: 100px;
     padding: 7px 14px;
     border: 2px solid #b48a4a;
     border-radius: 20px;
