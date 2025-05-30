@@ -166,7 +166,7 @@
         "id":"jacheta_piele",
         "title": "Jachetă din piele",
         "description": "Jachetă din piele, modernă și elegantă.",
-        "image": "images/womenjacheta_piele.jpg",
+        "image": "images/women/jacheta_piele.jpg",
         "price": "289 RON",
         "fullDescription": "Această jachetă din piele ecologică este confecționată dintr-un material de înaltă calitate, oferind un aspect elegant și sofisticat. Designul său modern și detaliile atent lucrate o fac potrivită pentru diverse ocazii, de la ieșiri casual la evenimente speciale. Disponibilă în mai multe mărimi, această jachetă este o alegere excelentă pentru a adăuga un strop de stil garderobei tale.",
         "sizes": ["S", "M", "L", "XL"],
@@ -260,16 +260,6 @@
         "image": "images/men/ochelari_soare.jpg",
         "price": "199 RON",
         "fullDescription": "Acești ochelari de soare moderni sunt confecționați dintr-un material de calitate, oferind protecție UV excelentă și un aspect stilat. Designul lor elegant îi face potriviți pentru orice ocazie, fie că este vorba de o zi la plajă sau de o ieșire în oraș. Disponibili într-o singură mărime, acești ochelari sunt un accesoriu esențial pentru vara ta.",
-        "sizes": ["One Size"],
-        "category":"men"
-     },
-     {
-        "id":"curea_neagra",
-        "title": "Curea neagră",
-        "description": "Curea neagră din piele, elegantă și durabilă.",
-        "image": "images/men/curea_neagra.jpg",
-        "price": "99 RON",
-        "fullDescription": "Această curea neagră din piele este confecționată dintr-un material de calitate superioară, oferind un aspect elegant și durabil. Designul său clasic și detaliile atent lucrate o fac potrivită pentru orice ocazie, fie că este vorba de birou sau de o ieșire în oraș. Disponibilă într-o singură mărime, această curea este un accesoriu esențial pentru garderoba ta.",
         "sizes": ["One Size"],
         "category":"men"
      },
