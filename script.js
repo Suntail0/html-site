@@ -4,7 +4,7 @@ fetch('products.json')
     const container = document.getElementById('products-container');
     container.innerHTML = '';
     products
-      .filter(product => product.category !== 'women')
+      .filter(product => product.category !== 'women' && product.category !== 'men')
       .forEach(product => {
         container.innerHTML += `
           <div class="product-card">

@@ -211,3 +211,93 @@ header h1 {
     max-width: 900px;
     margin: 0 auto 32px auto;
 }
+.add-to-cart-btn {
+    background-color: #b48a4a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    letter-spacing: 0.5px;
+}
+
+.add-to-cart-btn:hover,
+.add-to-cart-btn:focus {
+    background-color: #a07a2a;
+    transform: translateY(-2px) scale(1.04);
+}
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.cart-table th, .cart-table td {
+    padding: 14px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ece7e1;
+}
+
+.cart-table th {
+    background: #f7f4f1;
+    color: #5b5143;
+    font-size: 18px;
+}
+
+.cart-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.qty-btn {
+    background: #ece7e1;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 12px;
+    font-size: 18px;
+    margin: 0 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #5b5143;
+    transition: background 0.2s;
+}
+
+.qty-btn:hover {
+    background: #b48a4a;
+    color: #fff;
+}
+
+.remove-btn {
+    background: #e57373;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.2s;
+}
+
+.remove-btn:hover {
+    background: #c62828;
+}
+
+.cart-total {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 18px;
+    color: #5b5143;
+}
