@@ -13,7 +13,7 @@
     "title": "Tricou alb",
     "description": "Un tricou alb, perfect pentru orice zi.",
     "image": "images/tricou_alb.png",
-    "price": "69.99 RON",
+    "price": "79 RON",
     "fullDescription": "Acest tricou alb este confecționat din bumbac de înaltă calitate, oferind un confort excelent pe tot parcursul zilei. Designul său simplu și elegant îl face potrivit pentru orice ocazie, fie că este vorba de o zi casual sau de o ieșire în oraș.Tricoul este disponibil în mai multe mărimi, asigurându-se că se potrivește perfect oricărei siluete. Este ușor de întreținut și poate fi combinat cu o varietate de pantaloni sau fuste pentru un look modern și fresh.",
     "sizes": ["S", "M", "L"]
   }
@@ -25,6 +25,152 @@
         "image": "images/ghete_negre.jpg",
         "price": "349 RON",
         "fullDescription": "Ghete din piele ecologică, rezistente și confortabile.",
-        "sizes": ["38", "39", "40", "41"]
+        "sizes": ["38", "39", "40", "41"],
+        "category": "women"
     }
+    ,
+    {
+        "id": "rochie_neagra",
+        "title": "Rochie neagra",
+        "description": "Rochie elegantă pentru ocazii speciale.",
+        "image": "images/rochie_neagra.jpg",
+        "price": "320 RON",
+        "fullDescription": "O rochie neagra superbă, perfectă pentru evenimente.",
+        "sizes": ["S", "M", "L"],
+        "category": "women"
+    }
+    ,
+    {
+        "id": "hanorac_albastru",
+        "title": "Hanorac albastru",
+        "description": "Hanorac albastru, confortabil și călduros.",
+        "image": "images/hanorac_albastru.jpg",
+        "price": "199 RON",
+        "fullDescription": "Acest hanorac albastru este confecționat dintr-un material moale și călduros, ideal pentru zilele răcoroase. Designul său modern și confortabil îl face perfect pentru activități casual sau pentru relaxare acasă. Este disponibil în mai multe mărimi, asigurându-se că se potrivește perfect oricărei siluete.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+    },
+    {
+        "id":"colanti",
+        "title": "Colanți negri",
+        "description": "Colanți negri, confortabili și elastici.",
+        "image": "images/colanti.jpg",
+        "price": "129 RON",
+        "fullDescription": "Colanții negri sunt confecționați dintr-un material elastic și respirabil, oferind un confort excelent pe tot parcursul zilei. Aceștia se potrivesc perfect cu orice tip de bluză sau tunică, fiind o alegere versatilă pentru garderoba ta. Disponibili în mai multe mărimi, acești colanți sunt ideali pentru activități sportive sau pentru o zi casual.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+    },
+    {
+        "id": "adidasi_albi",
+        "title": "Adidasi albi",
+        "description": "Adidasi albi, eleganți și confortabili.",
+        "image": "images/adidasi_albi.jpg",
+        "price": "299 RON",
+        "fullDescription": "Acești adidasi albi sunt confecționați din piele ecologică de înaltă calitate, oferind un aspect elegant și modern. Designul lor clasic îi face potriviți pentru orice ocazie, fie că este vorba de o zi la birou sau de o ieșire în oraș. Disponibili în mai multe mărimi, acești pantofi sunt o alegere excelentă pentru garderoba ta.",
+        "sizes": ["38", "39", "40", "41"],
+        "category":"women"
+    },
+    {
+        "id": "geaca_puffer_neagra",
+        "title": "Geacă puffer neagră",
+        "description": "Geacă puffer neagră, perfectă pentru sezonul rece.",
+        "image": "images/geaca_puffer.jpg",
+        "price": "450 RON",
+        "fullDescription": "Această geacă neagră este confecționată dintr-un material rezistent la apă și vânt, oferind protecție excelentă în zilele reci și ploioase. Designul său modern și funcțional o face potrivită pentru activități în aer liber sau pentru purtarea zilnică. Disponibilă în mai multe mărimi, această geacă este un must-have pentru garderoba ta de iarnă.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category" :"women"
+        
+     },
+     {
+        "id":"geanta_mica",
+        "title": "Geantă mică",
+        "description": "Geantă mică, elegantă și practică.",
+        "image": "images/geanta_mica.jpg",
+        "price": "199 RON",
+        "fullDescription": "Această geantă mică este perfectă pentru a-ți păstra lucrurile esențiale la îndemână. Designul său elegant și compact o face ideală pentru ieșiri în oraș sau pentru evenimente speciale. Confecționată din materiale de calitate, această geantă este atât practică, cât și stilată.",
+        "sizes": ["One Size"],
+        "category":"women"
+     },
+     {
+        "id":"set_bijuterii",
+        "title": "Set bijuterii",
+        "description": "Set bijuterii elegant, perfect pentru ocazii speciale.",
+        "image": "images/bijuterii_argint.jpg",
+        "price": "150 RON",
+        "fullDescription": "Acest set de bijuterii din argint este perfect pentru a adăuga o notă de eleganță oricărei ținute. Conține un colier și cercei asortați, confecționați din argint de înaltă calitate. Designul său rafinat îl face potrivit pentru ocazii speciale sau pentru purtarea zilnică. Este un cadou ideal pentru persoanele dragi.",
+        "sizes": ["One Size"],
+        "category":"women"
+
+     },
+     {
+        "id":"blugi_scurti",
+        "title": "Blugi scurți",
+        "description": "Blugi scurți, confortabili și trendy.",
+        "image": "images/blugi_scurti.jpg",
+        "price": "199 RON",
+        "fullDescription": "Acești blugi scurți sunt confecționați dintr-un material de calitate, oferind un confort excelent în zilele călduroase. Designul lor modern și croiala lejeră îi fac potriviți pentru plimbări în parc sau pentru o zi la plajă. Disponibili în mai multe mărimi, acești blugi scurți sunt o alegere versatilă pentru garderoba ta de vară.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+     },
+     {
+        "id":"fusta_galbena",
+        "title": "Fustă galbenă",
+        "description": "Fustă galbenă, elegantă și jucăușă.",
+        "image": "images/fusta_galbena.jpg",
+        "price": "220 RON",
+        "fullDescription": "Această fustă galbenă este confecționată dintr-un material ușor și vaporoasă, perfectă pentru zilele însorite de vară. Designul său elegant și culoarea vibrantă o fac potrivită pentru diverse ocazii, de la ieșiri casual la evenimente speciale. Disponibilă în mai multe mărimi, această fustă este o alegere excelentă pentru a adăuga un strop de culoare garderobei tale.",
+        "sizes": ["S", "M", "L"],
+        "category":"women"
+     },
+     {
+        "id":"tricou_negru",
+        "title": "Tricou negru cu imprimeu",
+        "description": "Tricou negru cu imprimeu, modern și confortabil.",
+        "image": "images/tricou_negru.jpg",
+        "price": "89 RON",
+        "fullDescription": "Acest tricou negru cu imprimeu este confecționat dintr-un material moale și respirabil, oferind un confort excelent pe tot parcursul zilei. Designul său modern și imprimeul atractiv îl fac potrivit pentru activități casual sau pentru o zi relaxantă acasă. Disponibil în mai multe mărimi, acest tricou este o alegere versatilă pentru garderoba ta.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+     },
+     {
+        "id":"pantaloni_cargo",
+        "title": "Pantaloni cargo",
+        "description": "Pantaloni cargo, practici și confortabili.",
+        "image": "images/pantaloni_cargo.jpg",
+        "price": "199 RON",
+        "fullDescription": "Acești pantaloni cargo sunt confecționați dintr-un material rezistent și durabil, ideal pentru activități în aer liber sau pentru o zi casual. Designul lor practic, cu buzunare multiple, îi face foarte funcționali. Disponibili în mai multe mărimi, acești pantaloni sunt o alegere excelentă pentru garderoba ta de zi cu zi.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+     },
+     {
+        "id":"palton_negru",
+        "title": "Palton negru",
+        "description": "Palton negru elegant, perfect pentru sezonul rece.",
+        "image": "images/palton_negru.jpg",
+        "price": "499 RON",
+        "fullDescription": "Acest palton negru este confecționat dintr-un material de calitate superioară, oferind căldură și confort în zilele reci. Designul său elegant și croiala clasică îl fac potrivit pentru ocazii formale sau pentru purta zilnic. Disponibil în mai multe mărimi, acest palton este un must-have pentru garderoba ta de iarnă.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+     },
+     {
+        "id":"jacheta_denim",
+        "title": "Jachetă denim",
+        "description": "Jachetă denim clasică, perfectă pentru primăvară și toamnă.",
+        "image": "images/jacheta_denim.jpg",
+        "price": "299 RON",
+        "fullDescription": "Această jachetă denim este confecționată dintr-un material de calitate, oferind un aspect clasic și versatil. Designul său lejer și confortabil o face potrivită pentru diverse ocazii, de la plimbări în parc la ieșiri în oraș. Disponibilă în mai multe mărimi, această jachetă este o alegere excelentă pentru garderoba ta de primăvară și toamnă.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+     },
+     {
+        "id":"jacheta_piele",
+        "title": "Jachetă din piele",
+        "description": "Jachetă din piele ecologică, modernă și elegantă.",
+        "image": "images/jacheta_piele.jpg",
+        "price": "399 RON",
+        "fullDescription": "Această jachetă din piele ecologică este confecționată dintr-un material de înaltă calitate, oferind un aspect elegant și sofisticat. Designul său modern și detaliile atent lucrate o fac potrivită pentru diverse ocazii, de la ieșiri casual la evenimente speciale. Disponibilă în mai multe mărimi, această jachetă este o alegere excelentă pentru a adăuga un strop de stil garderobei tale.",
+        "sizes": ["S", "M", "L", "XL"],
+        "category":"women"
+     }
+
 ]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse pentru Femei - Coutoure du Jour</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="women.js" defer></script>
+</head>
+<body>
+    <div class="top-ribbon">
+        <img src="images/logo.png" width="108" height="192" class="logo" alt="Logo">
+        <span class="ribbon-title">Coutoure du Jour</span>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#cart">Cart</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="index.html#men">Men</a></li>
+                <li><a href="index.html#kids">Kids</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h2>Produse pentru Femei</h2>
+        <div class="products-container" id="women-products"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Coutoure du Jour</p>
+    </footer>
+</body>
+</html>
