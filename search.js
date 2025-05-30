@@ -1,3 +1,7 @@
+function normalize(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
 function getQueryParam(param) {
   const urlParams = new URLSearchParams(window.location.search);
   return urlParams.get(param) || '';
@@ -6,10 +10,10 @@ function getQueryParam(param) {
 fetch('products.json')
   .then(res => res.json())
   .then(products => {
-    const query = getQueryParam('query').toLowerCase();
+    const query = normalize(getQueryParam('query'));
     const results = products.filter(product =>
-      product.title.toLowerCase().includes(query) ||
-      product.description.toLowerCase().includes(query)
+      normalize(product.title).includes(query) ||
+      normalize(product.description).includes(query)
     );
     const container = document.getElementById('search-results');
     if (results.length === 0) {

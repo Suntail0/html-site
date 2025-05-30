@@ -301,3 +301,26 @@ header h1 {
     margin-top: 18px;
     color: #5b5143;
 }
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 24px 0;
+}
+
+#search-input {
+    width: 340px;
+    padding: 12px 18px;
+    border: 2px solid #b48a4a;
+    border-radius: 24px;
+    font-size: 17px;
+    outline: none;
+    background: #f7f4f1;
+    color: #5b5143;
+    transition: border 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+#search-input:focus {
+    border-color: #5b5143;
+    box-shadow: 0 4px 16px rgba(180,138,74,0.10);
+}
