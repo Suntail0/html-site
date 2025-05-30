@@ -1,0 +1,30 @@
+[
+  {
+    "id": "blugi_albastri",
+    "title": "Blugi albastri",
+    "description": "Blugi albastri, de calitate extraordinara",
+    "image": "images/blugi_albastri.png",
+    "price": "249 RON",
+    "fullDescription": "Acești blugi albastri sunt confecționați din materiale de cea mai bună calitate, oferind confort și stil pe tot parcursul zilei. Croiala modernă și detaliile atent lucrate îi fac potriviți pentru orice ocazie. Datorită culorii lor versatile, acești blugi pot fi purtați atât la birou, cât și în timpul liber, fiind o alegere excelentă pentru garderoba ta.",
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "tricou_alb",
+    "title": "Tricou alb",
+    "description": "Un tricou alb, perfect pentru orice zi.",
+    "image": "images/tricou_alb.png",
+    "price": "69.99 RON",
+    "fullDescription": "Acest tricou alb este confecționat din bumbac de înaltă calitate, oferind un confort excelent pe tot parcursul zilei. Designul său simplu și elegant îl face potrivit pentru orice ocazie, fie că este vorba de o zi casual sau de o ieșire în oraș.Tricoul este disponibil în mai multe mărimi, asigurându-se că se potrivește perfect oricărei siluete. Este ușor de întreținut și poate fi combinat cu o varietate de pantaloni sau fuste pentru un look modern și fresh.",
+    "sizes": ["S", "M", "L"]
+  }
+    ,
+    {
+        "id": "ghete_negre",
+        "title": "Ghete negre",
+        "description": "Ghete negre, ideale pentru sezonul rece.",
+        "image": "images/ghete_negre.jpg",
+        "price": "349 RON",
+        "fullDescription": "Ghete din piele ecologică, rezistente și confortabile.",
+        "sizes": ["38", "39", "40", "41"]
+    }
+]
