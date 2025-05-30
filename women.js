@@ -1,10 +1,10 @@
 fetch('products.json')
   .then(response => response.json())
   .then(products => {
-    const container = document.getElementById('products-container');
+    const container = document.getElementById('women-products');
     container.innerHTML = '';
     products
-      .filter(product => product.category !== 'women')
+      .filter(product => product.category === 'women')
       .forEach(product => {
         container.innerHTML += `
           <a href="product.html?id=${product.id}" style="text-decoration:none; color:inherit;">
