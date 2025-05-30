@@ -4,7 +4,7 @@ fetch('products.json')
     const container = document.getElementById('products-container');
     container.innerHTML = '';
     products
-      .filter(product => product.category !== 'women' && product.category !== 'men') 
+      .filter(product => product.category !== 'women')
       .forEach(product => {
         container.innerHTML += `
           <div class="product-card">
@@ -19,3 +19,19 @@ fetch('products.json')
         `;
       });
   });
+
+// Add this cart logic (or put it in cart.js and include it in index.html)
+document.addEventListener('click', function(e) {
+  if (e.target.classList.contains('add-to-cart-btn')) {
+    const productId = e.target.getAttribute('data-id');
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const existing = cart.find(item => item.id === productId);
+    if (existing) {
+      existing.qty += 1;
+    } else {
+      cart.push({ id: productId, qty: 1 });
+    }
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert('Produsul a fost adăugat în coș!');
+  }
+});
