@@ -26,6 +26,7 @@ fetch('products.json')
             </ul>
           </div>
           <span class="price">${product.price}</span>
+          <button class="add-to-cart-btn" data-id="${product.id}">Adaugă în coș</button>
         </div>
       </div>
       <div class="product-full-desc">

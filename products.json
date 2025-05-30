@@ -292,6 +292,16 @@
         "fullDescription": "Această brățară din piele este confecționată dintr-un material de calitate superioară, oferind un aspect modern și sofisticat. Designul său elegant și detaliile atent lucrate o fac potrivită pentru ocazii speciale sau pentru purtarea zilnică. Este un cadou ideal pentru persoanele dragi sau pentru a te răsfăța pe tine.",
         "sizes": ["One Size"],
         "category":"men"
-     }
+     },
+        {
+            "id":"curea_neagra",
+            "title": "Curea neagră din piele",
+            "description": "Curea neagră din piele, elegantă și durabilă.",
+            "image": "images/men/curea.jpg",
+            "price": "129 RON",
+            "fullDescription": "Această curea neagră din piele este confecționată dintr-un material de calitate superioară, oferind un aspect elegant și durabil. Designul său clasic și detaliile atent lucrate o fac potrivită pentru orice ocazie, fie că este vorba de o zi la birou sau de o ieșire în oraș. Disponibilă într-o singură mărime, această curea este un accesoriu esențial pentru garderoba ta.",
+            "sizes": ["One Size"],
+            "category":"men"
+        }
 
 ]

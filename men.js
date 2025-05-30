@@ -7,14 +7,15 @@ fetch('products.json')
       .filter(product => product.category === 'men')
       .forEach(product => {
         container.innerHTML += `
-          <a href="product.html?id=${product.id}" style="text-decoration:none; color:inherit;">
-            <div class="product-card">
+          <div class="product-card">
+            <a href="product.html?id=${product.id}" style="text-decoration:none; color:inherit;">
               <img src="${product.image}" alt="${product.title}">
               <h3>${product.title}</h3>
               <p>${product.description}</p>
               <span class="price">${product.price}</span>
-            </div>
-          </a>
+            </a>
+            <button class="add-to-cart-btn" data-id="${product.id}">Adaugă în coș</button>
+          </div>
         `;
       });
   });
