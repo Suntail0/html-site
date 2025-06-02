@@ -398,16 +398,17 @@ header h1 {
 }
 .back-btn{
     display: inline-block;
-    background-color: #b48a4a;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    margin: 20px auto 0 auto;
+    margin: 20px auto; /* Center horizontally */
+    padding: 10px 20px; /* Add padding for better appearance */
+    background-color: #007BFF; /* Add a background color */
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add rounded corners */
+    text-align: center; /* Center text inside the button */
+    font-size: 16px; /* Adjust font size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
-.back-btn:hover {
-    background-color: #a07a2a;
+
+main {
+  text-align: center; /* Center all content inside the main element */
 }
