@@ -396,3 +396,18 @@ header h1 {
 .pay-btn:hover {
     background-color: #a07a2a;
 }
+.back-btn{
+    display: inline-block;
+    background-color: #b48a4a;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 20px auto 0 auto;
+}
+.back-btn:hover {
+    background-color: #a07a2a;
+}
