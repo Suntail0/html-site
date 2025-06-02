@@ -50,5 +50,11 @@
       <button type="submit" class="pay-btn">Plătește</button>
     </form>
   </main>
+  <script>
+  // Clear the cart when the form is submitted
+  document.querySelector('.payment-form').addEventListener('submit', function () {
+    localStorage.removeItem('cart'); // Assuming cart data is stored under 'cart' in localStorage
+  });
+  </script>
 </body>
 </html>
