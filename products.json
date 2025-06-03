@@ -302,6 +302,178 @@
             "fullDescription": "Această curea neagră din piele este confecționată dintr-un material de calitate superioară, oferind un aspect elegant și durabil. Designul său clasic și detaliile atent lucrate o fac potrivită pentru orice ocazie, fie că este vorba de o zi la birou sau de o ieșire în oraș. Disponibilă într-o singură mărime, această curea este un accesoriu esențial pentru garderoba ta.",
             "sizes": ["One Size"],
             "category":"men"
+        },
+        {
+            "id":"sapca",
+            "title": "Șapcă sport",
+            "description": "Șapcă sport, confortabilă și modernă.",
+            "image":"images/men/sapca.jpg",
+            "price": "50 RON",
+            "fullDescription": "Această șapcă sport este confecționată dintr-un material ușor și respirabil, oferind un confort excelent pe tot parcursul zilei. Designul său modern și logo-ul atractiv o fac potrivită pentru activități sportive sau pentru o zi casual. Disponibilă într-o singură mărime, această șapcă este un accesoriu esențial pentru garderoba ta.",
+            "sizes": ["One Size"],
+            "category":"men"
+        },
+        {
+            "id":"adidasi_sport_women" ,
+            "title": "Adidași sport pentru femei",
+            "description": "Adidași sport pentru femei, confortabili și moderni.",
+            "image": "images/women/adidasi_sport_women.jpg",
+            "price": "250 RON",
+            "fullDescription": "Acești adidași sport pentru femei sunt confecționați dintr-un material de calitate superioară, oferind un confort excelent și un aspect modern. Designul lor ergonomic și detaliile atent lucrate îi fac potriviți pentru activități sportive sau pentru o zi activă în oraș. Disponibili în mai multe mărimi, acești pantofi sunt o alegere excelentă pentru garderoba ta.",
+            "sizes": ["36", "37", "38", "39", "40"],
+            "category":"women"
+        },
+        {
+            "id":"blugi_negri_evasati",
+            "title": "Blugi negri evazați",
+            "description": "Blugi negri evazați, eleganți și confortabili.",
+            "image": "images/women/blugi_negri_evasati.jpg",
+            "price": "180 RON",
+            "fullDescription": "Acești blugi negri evazați sunt confecționați dintr-un material de calitate superioară, oferind un confort excelent și un aspect elegant. Designul lor evazat și croiala modernă îi face potriviți pentru diverse ocazii, de la birou la ieșiri casual. Disponibili în mai multe mărimi, acești blugi sunt o alegere excelentă pentru a adăuga un strop de stil garderobei tale.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"women"
+        },
+        {
+            "id":"fusta_albastra",
+            "title": "Fustă albastră",
+            "description": "Fustă albastră, elegantă și modernă.",
+            "image": "images/women/fusta_albastra.jpg",
+            "price": "160 RON",
+            "fullDescription": "Această fustă albastră este confecționată dintr-un material ușor și vaporoasă, perfectă pentru zilele însorite de vară. Designul său elegant și culoarea vibrantă o fac potrivită pentru diverse ocazii, de la ieșiri casual la evenimente speciale. Disponibilă în mai multe mărimi, această fustă este o alegere excelentă pentru a adăuga un strop de culoare garderobei tale.",
+            "sizes": ["S", "M", "L"],
+            "category":"women"
+        },
+        {
+            "id":"geanta_eleganta",
+            "title": "Geantă elegantă",
+            "description": "Geantă elegantă, perfectă pentru ocazii speciale.",
+            "image": "images/women/geanta_eleganta.jpg",
+            "price": "220 RON",
+            "fullDescription": "Această geantă elegantă este confecționată dintr-un material de calitate superioară, oferind un aspect sofisticat și rafinat. Designul său clasic și detaliile atent lucrate o fac potrivită pentru ocazii speciale sau pentru purtarea zilnică. Disponibilă într-o singură mărime, această geantă este un accesoriu esențial pentru garderoba ta.",
+            "sizes": ["One Size"],
+            "category":"women"
+        },
+        {
+            "id":"rochie_cu_flori",
+            "title": "Rochie cu flori",
+            "description": "Rochie cu flori, perfectă pentru primăvară și vară.",
+            "image": "images/women/rochie_roz.jpg",
+            "price": "200 RON",
+            "fullDescription": "Această rochie cu flori este confecționată dintr-un material ușor și vaporoasă, perfectă pentru zilele însorite de primăvară și vară. Designul său floral și croiala modernă o fac potrivită pentru diverse ocazii, de la ieșiri casual la evenimente speciale. Disponibilă în mai multe mărimi, această rochie este o alegere excelentă pentru a adăuga un strop de culoare garderobei tale.",
+            "sizes": ["S", "M", "L"],
+            "category":"women"
+        },
+        {
+            "id":"hanorac_negru",
+            "title": "Hanorac negru",
+            "description": "Hanorac negru, confortabil și versatil.",
+            "image": "images/women/hanorac_negru.jpg",
+            "price": "130 RON",
+            "fullDescription": "Acest hanorac negru este confecționat dintr-un material moale și călduros, ideal pentru zilele răcoroase. Designul său modern și confortabil îl face perfect pentru activități casual sau pentru relaxare acasă. Este disponibil în mai multe mărimi, asigurându-se că se potrivește perfect oricărei siluete.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"women"
+        },
+        {
+            "id":"jacheta_piele_bej",
+            "title": "Jachetă din piele bej",
+            "description": "Jachetă din piele bej, modernă și elegantă.",
+            "image": "images/women/jacheta_piele_bej.jpg",
+            "price": "320 RON",
+            "fullDescription": "Această jachetă din piele ecologică bej este confecționată dintr-un material de înaltă calitate, oferind un aspect elegant și sofisticat. Designul său modern și detaliile atent lucrate o fac potrivită pentru diverse ocazii, de la ieșiri casual la evenimente speciale. Disponibilă în mai multe mărimi, această jachetă este o alegere excelentă pentru a adăuga un strop de stil garderobei tale.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"women"
+        },
+        {
+            "id":"rochie_albastra_imprimeu",
+            "title": "Rochie albastră cu imprimeu",
+            "description": "Rochie albastră cu imprimeu, elegantă și jucăușă.",
+            "image":"images/women/rochie_albastra_imprimeu.jpg",
+            "price": "220 RON",
+            "fullDescription": "Această rochie albastră cu imprimeu este confecționată dintr-un material ușor și vaporoasă, perfectă pentru zilele însorite de vară. Designul său elegant și imprimeul jucăuș o fac potrivită pentru diverse ocazii, de la ieșiri casual la evenimente speciale. Disponibilă în mai multe mărimi, această rochie este o alegere excelentă pentru a adăuga un strop de culoare garderobei tale.",
+            "sizes": ["S", "M", "L"],
+            "category":"women"
+        },
+        {
+            "id":"adidasi_gri",
+            "title": "Adidași gri",
+            "description": "Adidași gri, confortabili și moderni.",
+            "image":"images/men/adidasi_gri.jpg",
+            "price": "250 RON",
+            "fullDescription": "Acești adidași gri sunt confecționați dintr-un material de calitate superioară, oferind un confort excelent și un aspect modern. Designul lor ergonomic și detaliile atent lucrate îi fac potriviți pentru activități sportive sau pentru o zi activă în oraș. Disponibili în mai multe mărimi, acești pantofi sunt o alegere excelentă pentru garderoba ta.",
+            "sizes": ["40", "41", "42", "43", "44"],
+            "category":"men"
+        },
+        {
+            "id":"blugi_albastri_men2",
+            "title": "Blugi albastri",
+            "description": "Blugi albastri, confortabili și moderni.",
+            "image": "images/men/blugi_albastri_men2.jpg",
+            "price": "180 RON",
+            "fullDescription": "Acești blugi albastri sunt confecționați dintr-un material de calitate superioară, oferind un confort excelent și un aspect modern. Designul lor clasic și croiala lejeră îi face potriviți pentru diverse ocazii, de la birou la ieșiri casual. Disponibili în mai multe mărimi, acești blugi sunt o alegere excelentă pentru a adăuga un strop de stil garderobei tale.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"men"
+        },
+        {
+            "id":"blugi_negri_men",
+            "title": "Blugi negri",
+            "description": "Blugi negri, eleganți și confortabili.",
+            "image": "images/men/blugi_negri_men.jpg",
+            "price": "180 RON",
+            "fullDescription": "Acești blugi negri sunt confecționați dintr-un material de calitate superioară, oferind un confort excelent și un aspect elegant. Designul lor clasic și croiala modernă îi face potriviți pentru birou sau pentru ocazii speciale. Disponibili în mai multe mărimi, acești blugi sunt o alegere excelentă pentru a adăuga un strop de stil garderobei tale.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"men"
+        },
+        {
+            "id":"camasa_albastra",
+            "title": "Cămașă albastră",
+            "description": "Cămașă albastră elegantă, perfectă pentru birou sau ocazii speciale.",
+            "image":"images/men/camasa_albastra.jpg",
+            "price": "130 RON",
+            "fullDescription": "Această cămașă albastră este confecționată dintr-un material de calitate superioară, oferind un aspect elegant și rafinat. Designul său clasic și croiala modernă o fac potrivită pentru birou sau pentru evenimente speciale. Disponibilă în mai multe mărimi, această cămașă este o alegere excelentă pentru a adăuga un strop de eleganță garderobei tale.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"men"
+        },
+        {
+            "id":"cravata_papion",
+            "title": "Cravată papion",
+            "description": "Cravată papion elegantă, perfectă pentru ocazii speciale.",
+            "image": "images/men/cravata_papion.jpg",
+            "price": "70 RON",
+            "fullDescription": "Această cravată papion este confecționată dintr-un material de calitate superioară, oferind un aspect sofisticat și rafinat. Designul său clasic și detaliile atent lucrate o fac potrivită pentru ocazii speciale sau pentru purtarea zilnică. Disponibilă într-o singură mărime, această cravată papion este un accesoriu esențial pentru garderoba ta.",
+            "sizes": ["One Size"],
+            "category":"men"
+        },
+        {
+            "id":"hanorac_negru_men",
+            "title": "Hanorac negru pentru bărbați",
+            "description": "Hanorac negru pentru bărbați, confortabil și versatil.",
+            "image": "images/men/hanorac_negru_men.jpg",
+            "price": "130 RON",
+            "fullDescription": "Acest hanorac negru pentru bărbați este confecționat dintr-un material moale și călduros, ideal pentru zilele răcoroase. Designul său modern și confortabil îl face perfect pentru activități casual sau pentru relaxare acasă. Este disponibil în mai multe mărimi, asigurându-se că se potrivește perfect oricărei siluete.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"men"
+        },
+        {
+            "id":"pantaloni_scurti_sport",
+            "title": "Pantaloni scurți sport",
+            "description": "Pantaloni scurți sport, confortabili și practici.",
+            "image": "images/men/pantaloni_scurti_sport.jpg",
+            "price": "90 RON",
+            "fullDescription": "Acești pantaloni scurți sport sunt confecționați dintr-un material ușor și respirabil, oferind un confort excelent în timpul activităților fizice. Designul lor modern și croiala lejeră îi face potriviți pentru alergare, antrenamente sau pentru o zi relaxantă acasă. Disponibili în mai multe mărimi, acești pantaloni scurți sunt o alegere excelentă pentru garderoba ta de sport.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"men"
+        },
+        {
+            "id":"tricou_imprimeu" ,
+            "title": "Tricou cu imprimeu",
+            "description": "Tricou cu imprimeu, modern și confortabil.",
+            "image": "images/men/tricou_imprimeu.jpg",
+            "price": "89 RON",
+            "fullDescription": "Acest tricou cu imprimeu este confecționat dintr-un material moale și respirabil, oferind un confort excelent pe tot parcursul zilei. Designul său modern și imprimeul atractiv îl fac potrivit pentru activități casual sau pentru o zi relaxantă acasă. Disponibil în mai multe mărimi, acest tricou este o alegere versatilă pentru garderoba ta.",
+            "sizes": ["S", "M", "L", "XL"],
+            "category":"men"
         }
+
+
 
 ]

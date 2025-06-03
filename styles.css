@@ -412,6 +412,19 @@ header h1 {
 main {
   text-align: center; /* Center all content inside the main element */
 }
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.total-price {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  margin-top: 20px;
+}
+
 .coupon-container {
   margin: 20px 0;
   text-align: center;
@@ -420,16 +433,11 @@ main {
 .coupon-container input {
   padding: 5px;
   margin-right: 10px;
-  border: 1px solid #b48a4a;
-  border-radius: 5px;
-  font-size: 16px;
-  background-color: rgb(225, 212, 183);
-
 }
 
 .coupon-container button {
   padding: 5px 10px;
-  background-color: #846441;
+  background-color: #72634a;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -437,7 +445,7 @@ main {
 }
 
 .coupon-container button:hover {
-  background-color: #58442e;
+  background-color: #42362d;
 }
 
 .discount-message {

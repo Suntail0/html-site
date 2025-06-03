@@ -11,7 +11,26 @@
       const cartContents = JSON.parse(localStorage.getItem('cart')) || [];
       const checkoutContainer = document.querySelector('.checkout-container');
       const couponContainer = document.querySelector('.coupon-container');
-      
+      const cartContentsDiv = document.querySelector('#cart-contents');
+      const totalPriceElement = document.querySelector('#total-price');
+      let totalPrice = 0;
+      let discount = 0;
+
+      // Render cart items
+      cartContents.forEach(item => {
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'cart-item';
+        itemDiv.innerHTML = `
+          <span>${item.name}</span>
+          <span>${item.price.toFixed(2)} RON</span>
+        `;
+        cartContentsDiv.appendChild(itemDiv);
+        totalPrice += item.price;
+      });
+
+      // Update total price
+      totalPriceElement.textContent = `Total: ${totalPrice.toFixed(2)} RON`;
+
       // Hide "Finalizează Comanda" button if cart is empty
       if (cartContents.length === 0) {
         checkoutContainer.style.display = 'none';
@@ -21,13 +40,31 @@
       document.querySelector('#apply-coupon').addEventListener('click', function () {
         const couponInput = document.querySelector('#coupon-code').value.trim();
         const discountMessage = document.querySelector('.discount-message');
-        if (couponInput === 'FRAMIPO3') { // Example coupon code
+        const discountDiv = document.querySelector('#discount-item');
+
+        if (couponInput === 'FASHION15') { // Example coupon code
+          discount = totalPrice * 0.15; // Calculate 15% discount
           discountMessage.textContent = 'Felicitări! Ai primit o reducere de 15%.';
           discountMessage.style.color = 'green';
-          // Apply discount logic here (e.g., update cart total)
+
+          // Display discount as a negative price item
+          discountDiv.innerHTML = `
+            <span>Reducere (FASHION15)</span>
+            <span>-${discount.toFixed(2)} RON</span>
+          `;
+          discountDiv.style.display = 'block';
+
+          // Update total price with discount
+          totalPriceElement.textContent = `Total: ${(totalPrice - discount).toFixed(2)} RON`;
         } else {
           discountMessage.textContent = 'Codul de reducere este invalid.';
           discountMessage.style.color = 'red';
+
+          // Hide discount item
+          discountDiv.style.display = 'none';
+
+          // Reset total price
+          totalPriceElement.textContent = `Total: ${totalPrice.toFixed(2)} RON`;
         }
       });
     });
@@ -55,6 +92,8 @@
   <main>
     <h1>Coșul meu</h1>
     <div id="cart-contents"></div>
+    <div id="discount-item" class="cart-item" style="display: none;"></div>
+    <p id="total-price" class="total-price"></p>
     <div class="coupon-container">
       <label for="coupon-code">Cod reducere:</label>
       <input type="text" id="coupon-code" placeholder="Introdu codul de reducere">
