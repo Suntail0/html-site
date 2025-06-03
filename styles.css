@@ -412,3 +412,30 @@ header h1 {
 main {
   text-align: center; /* Center all content inside the main element */
 }
+.coupon-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.coupon-container input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.coupon-container button {
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.coupon-container button:hover {
+  background-color: #0056b3;
+}
+
+.discount-message {
+  margin-top: 10px;
+  font-size: 14px;
+}

@@ -6,29 +6,61 @@
   <link rel="stylesheet" href="styles.css">
   <script src="cart.js" defer></script>
   <script src="showcart.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const cartContents = JSON.parse(localStorage.getItem('cart')) || [];
+      const checkoutContainer = document.querySelector('.checkout-container');
+      const couponContainer = document.querySelector('.coupon-container');
+      
+      // Hide "Finalizează Comanda" button if cart is empty
+      if (cartContents.length === 0) {
+        checkoutContainer.style.display = 'none';
+      }
+
+      // Handle coupon code
+      document.querySelector('#apply-coupon').addEventListener('click', function () {
+        const couponInput = document.querySelector('#coupon-code').value.trim();
+        const discountMessage = document.querySelector('.discount-message');
+        if (couponInput === 'FRAMIPO3') { // Example coupon code
+          discountMessage.textContent = 'Felicitări! Ai primit o reducere de 15%.';
+          discountMessage.style.color = 'green';
+          // Apply discount logic here (e.g., update cart total)
+        } else {
+          discountMessage.textContent = 'Codul de reducere este invalid.';
+          discountMessage.style.color = 'red';
+        }
+      });
+    });
+  </script>
 </head>
 <body>
   <div class="top-ribbon">
     <img src="images/logo.png" width="108" height="192" class="logo" alt="Logo">
-        <span class="ribbon-title">Couture du Jour</span>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="men.html">Men</a></li>
-                <li>
-                    <form class="search-bar" id="search-form" action="search.html" method="GET">
-                        <input type="text" id="search-input" name="query" placeholder="Caută produse..." required>
-                    </form>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <span class="ribbon-title">Couture du Jour</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="men.html">Men</a></li>
+        <li>
+          <form class="search-bar" id="search-form" action="search.html" method="GET">
+            <input type="text" id="search-input" name="query" placeholder="Caută produse..." required>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <main>
     <h1>Coșul meu</h1>
     <div id="cart-contents"></div>
+    <div class="coupon-container">
+      <label for="coupon-code">Cod reducere:</label>
+      <input type="text" id="coupon-code" placeholder="Introdu codul de reducere">
+      <button id="apply-coupon">Aplică</button>
+      <p class="discount-message"></p>
+    </div>
     <div class="checkout-container">
       <a href="pay.html" class="checkout-btn">Finalizează Comanda</a>
     </div>
