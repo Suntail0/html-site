@@ -42,14 +42,14 @@
         const discountMessage = document.querySelector('.discount-message');
         const discountDiv = document.querySelector('#discount-item');
 
-        if (couponInput === 'FASHION15') { // Example coupon code
+        if (couponInput === 'FRAMIPO3') { // Example coupon code
           discount = totalPrice * 0.15; // Calculate 15% discount
           discountMessage.textContent = 'Felicitări! Ai primit o reducere de 15%.';
           discountMessage.style.color = 'green';
 
           // Display discount as a negative price item
           discountDiv.innerHTML = `
-            <span>Reducere (FASHION15)</span>
+            <span>Reducere (FRAMIPO3)</span>
             <span>-${discount.toFixed(2)} RON</span>
           `;
           discountDiv.style.display = 'block';
