@@ -10,9 +10,10 @@
     document.addEventListener('DOMContentLoaded', function () {
       const cartContents = JSON.parse(localStorage.getItem('cart')) || [];
       const checkoutContainer = document.querySelector('.checkout-container');
-      const couponContainer = document.querySelector('.coupon-container');
       const cartContentsDiv = document.querySelector('#cart-contents');
       const totalPriceElement = document.querySelector('#total-price');
+      const discountDiv = document.querySelector('#discount-item');
+      const discountMessage = document.querySelector('.discount-message');
       let totalPrice = 0;
       let discount = 0;
 
@@ -39,8 +40,6 @@
       // Handle coupon code
       document.querySelector('#apply-coupon').addEventListener('click', function () {
         const couponInput = document.querySelector('#coupon-code').value.trim();
-        const discountMessage = document.querySelector('.discount-message');
-        const discountDiv = document.querySelector('#discount-item');
 
         if (couponInput === 'FRAMIPO3') { // Example coupon code
           discount = totalPrice * 0.15; // Calculate 15% discount
@@ -52,7 +51,7 @@
             <span>Reducere (FRAMIPO3)</span>
             <span>-${discount.toFixed(2)} RON</span>
           `;
-          discountDiv.style.display = 'block';
+          discountDiv.style.display = 'flex';
 
           // Update total price with discount
           totalPriceElement.textContent = `Total: ${(totalPrice - discount).toFixed(2)} RON`;
