@@ -47,10 +47,29 @@ fetch('products.json')
         `;
       }
     });
+
+    // Check for coupon and apply it
+    const couponInput = localStorage.getItem('appliedCoupon'); // Store applied coupon in localStorage
+    let discount = 0;
+    if (couponInput === 'FRAMIPO3') {
+      discount = total * 0.15; // Calculate 15% discount
+      html += `
+        <tr>
+          <td>
+            <span>FRAMIPO3 Reducere</span>
+          </td>
+          <td>-${discount.toFixed(2)} RON</td>
+          <td></td>
+          <td>-${discount.toFixed(2)} RON</td>
+          <td></td>
+        </tr>
+      `;
+    }
+
     html += `
         </tbody>
       </table>
-      <div class="cart-total">Total: <strong>${total} RON</strong></div>
+      <div class="cart-total">Total: <strong>${(total - discount).toFixed(2)} RON</strong></div>
     `;
     container.innerHTML = html;
   });
@@ -74,6 +93,20 @@ document.addEventListener('click', function(e) {
       if (action === 'decrease' && item.qty > 1) item.qty -= 1;
       localStorage.setItem('cart', JSON.stringify(cart));
       location.reload();
+    }
+  }
+});
+
+// Handle coupon application
+document.addEventListener('click', function(e) {
+  if (e.target.id === 'apply-coupon') {
+    const couponInput = document.querySelector('#coupon-code').value.trim();
+    if (couponInput === 'FRAMIPO3') {
+      localStorage.setItem('appliedCoupon', 'FRAMIPO3'); // Save applied coupon
+      alert('Codul de reducere a fost aplicat!');
+      location.reload(); // Reload to update cart
+    } else {
+      alert('Codul de reducere este invalid.');
     }
   }
 });
