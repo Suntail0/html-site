@@ -19,6 +19,12 @@
 
       // Render cart items
       cartContents.forEach(item => {
+        // Validate item and price
+        if (!item || typeof item.price !== 'number') {
+          console.error('Invalid item or price:', item);
+          return; // Skip invalid items
+        }
+
         const itemDiv = document.createElement('div');
         itemDiv.className = 'cart-item';
         itemDiv.innerHTML = `
